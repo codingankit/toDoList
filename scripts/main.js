@@ -6,7 +6,7 @@ const infoDiv = document.getElementById("infoDiv");
 const infoText = document.getElementById("infoText");
 
 const TODO_LIST_STORAGE_KEY = "toDoListLocalStorage";
-let toDoListLocalStorage = localStorage.getItem(TODO_LIST_STORAGE_KEY);
+let toDoListLocalStorage;
 
 mainContent.style.display = "none";
 infoDiv.style.display = "none";
@@ -104,4 +104,3 @@ function infoShow({ value, type }) {
     infoDiv.innerText = value;
   }
 }
-
