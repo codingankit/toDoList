@@ -32,7 +32,7 @@ body {
 #toDoAddInput {
   padding: 5px 5px;
   height: 34px;
-  width: 280px;
+  width: 320px;
   border: none;
   background: none;
   color: #ced6e0;
@@ -43,20 +43,24 @@ body {
   border-bottom: 1px solid #ced6e0;
 }
 #mainContent {
-  margin-top: 130px;
+  margin-top: 120px;
   height: 100vh;
+  display: flex;
+  padding: 9px;
+  align-items: center;
 }
 
 .toDoBox {
   height: auto;
-  width: 96%;
-  margin: 15px 8px 10px 8px;
+  width: 100%;
+  margin: 15px 0px 10px 0px;
   padding: 9px 9px 9px 9px;
   color: #fff;
   border-radius: 4px;
   background: #000;
   display: flex;
   align-items: center;
+  justify-content: center;
   background: rgba(0, 0, 0, 0.3);
   color: #e84393;
   font-weight: bold;
@@ -64,14 +68,15 @@ body {
 .toDoText,
 .toDoDeleteBtn {
   display: inline;
-  display: flex;
-  align-items: center;
+  float: right;
 }
 .toDoDeleteBtn {
   color: #d9534f;
+  margin-left: 5%;
 }
 .toDoText {
-  width: 370px;
+  word-wrap: break-word;
+  width: 90%;
 }
 #infoDiv {
   position: absolute;
@@ -84,9 +89,40 @@ body {
   align-items: center;
   font-size: 26px;
 }
-.info{
-  color:#e84393;
+.info {
+  color: #e84393;
 }
-.err{
+.err {
   color: #d9534f;
+}
+@media only screen and (min-width: 768px) {
+  #mainContent {
+    margin-top: 130px;
+    height: 100vh;
+    padding: 9px;
+  }
+
+  .toDoBox {
+    height: auto;
+    width: 60%;
+    padding: 9px 9px 9px 9px;
+    color: #fff;
+    border-radius: 4px;
+    background: #000;
+    width: 60%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.3);
+    color: #e84393;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  #toDoAddInput {
+    padding: 5px 5px;
+    height: 34px;
+    width: 490px;
+    border: none;
+    background: none;
+    color: #ced6e0;
+    font-weight: bold;
+  }
 }
