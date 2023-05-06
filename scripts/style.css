@@ -1,0 +1,92 @@
+/* CSS Document */
+@import "https://fonts.googleapis.com/css2?family=Dosis&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+body {
+  background: #353b48;
+}
+
+#header {
+  text-align: center;
+  height: 115px;
+  width: 100%;
+  background: #2d3436;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+}
+#heading {
+  font-size: 27px;
+  font-weight: bold;
+  color: #00b894;
+  margin-top: 8px;
+}
+#toDoAddBox {
+  margin-top: 14px;
+}
+#toDoAddInput {
+  padding: 5px 5px;
+  height: 34px;
+  width: 280px;
+  border: none;
+  background: none;
+  color: #ced6e0;
+  font-weight: bold;
+}
+#toDoAddInput:focus {
+  outline: none;
+  border-bottom: 1px solid #ced6e0;
+}
+#mainContent {
+  margin-top: 130px;
+  height: 100vh;
+}
+
+.toDoBox {
+  height: auto;
+  width: 96%;
+  margin: 15px 8px 10px 8px;
+  padding: 9px 9px 9px 9px;
+  color: #fff;
+  border-radius: 4px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  color: #e84393;
+  font-weight: bold;
+}
+.toDoText,
+.toDoDeleteBtn {
+  display: inline;
+  display: flex;
+  align-items: center;
+}
+.toDoDeleteBtn {
+  color: #d9534f;
+}
+.toDoText {
+  width: 370px;
+}
+#infoDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+}
+.info{
+  color:#e84393;
+}
+.err{
+  color: #d9534f;
+}
