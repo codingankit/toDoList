@@ -13,6 +13,10 @@ This is a simple to-do list app made in JavaScript. The app allows you to add an
 - CSS
 - JavaScript
 
+## Demo
+
+You can see a live demo of the app [here](https://codingankit.github.io/toDoList).
+
 ## Usage
 
 To use the app, simply open the `index.html` file in your web browser. You will see a text input field "Add Task" at the top of the page. Type the task you want to add in the text input field and hit enter to add it to the task list.
