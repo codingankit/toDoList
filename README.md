@@ -26,3 +26,8 @@ To remove a task from the list, click the red cross button next to the task.
 ## Contributing
 
 If you'd like to contribute to the development of this app, feel free to submit a pull request or create an issue on the GitHub repository.
+
+## License
+
+This project is licensed under the GNU General Public License v2.0. You can find the full text of the license in the [LICENSE](LICENSE) file.
+
